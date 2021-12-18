@@ -17,5 +17,8 @@ puts "Creating freebies..."
 # * and a freebie belongs to a company.                         *
 # ***************************************************************
 # Create freebies Here
+freebie.create(item_name: "Chrome", value: 36.0)
+freebie.create(item_name: "Android", value: 33.55)
+freebie.create(item_name: "GitHub", value: 24.38)
 
 puts "Seeding done!"
